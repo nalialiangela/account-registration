@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://i.pinimg.com/564x/a8/71/81/a871818d46d18745d0a21f6c7dc4c795.jpg");
+}
+.container {
+    width: 300px;
+    margin: 0 auto;
+}
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+}
+input[type="submit"] {
+    background-color: lightseagreen;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+}
+.error {
+    color: red;
+}
